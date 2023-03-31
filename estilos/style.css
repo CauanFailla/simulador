@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #545A67;
+    --cor2: #15141D;
+    --cor3: #E5E9ED;
+    --cor4: #0D1B2E;
+    --cor5: #DAD6CE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body  {
+    background-color: #545A67; 
+    
+}
+
+header {
+    background-color: #15141D;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+header h1 {
+    font-size: 1.7em;
+}
+
+
+
+.entrar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 70px 40px;
+    transform: translate(-50%,-50%);
+    background-color: #E5E9ED;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.entrar p {
+    margin-top: 10px;
+}
+
+.inp_prin {
+    background-color: #15141D;
+    color: white;
+    margin-top: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 10px;
+
+}
+
+.entrar input[type=button] {
+    background-color: #0D1B2E;
+    border: none;
+    color: white;
+    padding: 3px 14px;
+    margin-top: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.entrar input[type=button]:hover {
+    background-color: #070f1a;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    background-color: #DAD6CE;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.bt button {
+    background-color: #545A67;
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    font-size: 1em;
+    transition-duration: 0.3s;
+}
+
+.bt button:hover {
+    background-color: #3f434d;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: #15141D;
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.carros div {
+    text-align: center;
+    color: white;
+}
+
+.carros button {
+    border: none;
+    background-color: #E5E9ED;
+    padding: 3px 10px;
+    margin-top: 5px;
+}
+
+.carros button:hover{
+    background-color: #babfc4;
+}
+
+.sec_dinheiro .prin {
+    background-color: #DAD6CE;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.sec_dinheiro input[type=button] {
+    background-color: #545A67;
+    border: none;
+    font-size: 1em;
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.bt, .sec_dinheiro, .sec_compras, .sec_pertences, .sec_viajar {
+    display: none;
+}
+
+.msg_erro {
+    color: red;
+}
+
+.bt button {
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.carros  {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px  300px  300px;
+    gap: 20px;
+}
+
+
+.pertences {
+    display: grid;
+    grid-template-columns: 300px 300px  300px;
+    width: 900px;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+}
