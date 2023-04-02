@@ -91,6 +91,7 @@ header h1 {
     padding: 3px 10px;
     font-size: 1em;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .bt button:hover {
@@ -117,6 +118,7 @@ header h1 {
     background-color: #E5E9ED;
     padding: 3px 10px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .carros button:hover{
@@ -167,8 +169,51 @@ header h1 {
     grid-template-columns: 300px 300px  300px;
     width: 900px;
     gap: 20px;
+    text-align: center;
 }
 
-button {
+.pertences button {
+    border: none;
+    padding: 3px  10px;
     cursor: pointer;
 }
+
+i {
+    color: white;
+    margin-right: 8px;
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
+.sec_viajar .viagens {
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    gap: 20px;
+}
+
+
+
+.div_center {
+    text-align: center;
+}
+
+.viagens button {
+    border: none;
+    padding: 3px 12px;
+    background-color: var(--cor2);
+    color: white;
+    cursor: pointer;
+}
+
+.viagens div {
+    padding: 20px;
+    background-color: var(--cor5);
+    border-radius: 20px;
+}
+
+.viagens div h3 {
+    text-align: center;
+}
+
+
+

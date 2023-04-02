@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/61ad81fb7b.js" crossorigin="anonymous"></script>
     <title>Simulador</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
@@ -30,7 +31,7 @@
             <button onclick="viajar()">Viajar</button>
             <button onclick="definir_dinheiro()">Definir Dinheiro</button>
             <button onclick="meus_pertences()">Pertences</button>
-            <button class="bt_din"></button>
+            <button class="bt_din">R$ 0,00</button>
         </section>
         <div class="principal">
             
@@ -57,17 +58,35 @@
                 </div>
             </section>
             <section class="sec_viajar">
-                <div>
-                    <h3>Nova York</h3>
-                    <p>Passagem: R$10.000,00</p>
-                    <p>Alimentação: R$2.000,00</p>
-                    <p>Hotel: R$5.355,00</p>
-                    <p class="viajem_1">Total: </p>
-                    <button onclick="pagar_viagem_1()">Pagar</button>
+                <div class="viagens">
+                    <div>
+                        <h3>Nova York</h3>
+                        <p>Passagem: R$10.000,00</p>
+                        <p>Alimentação: R$2.000,00</p>
+                        <p>Hotel: R$5.355,00</p>
+                        <p class="viajem_1">Total: </p>
+                        <div class="div_center"><button onclick="pagar_viagem_1()">Pagar</button></div>
+                    </div>
+                    <div>
+                        <h3>Milão</h3>
+                        <p>Passagem: R$20.000,00</p>
+                        <p>Alimentação: R$5.000,00</p>
+                        <p>Hotel: R$10.000,00</p>
+                        <p class="viajem_2">Total: </p>
+                        <div class="div_center"><button onclick="pagar_viagem_2()">Pagar</button></div>
+                    </div>
+                    <div>
+                        <h3>Paris</h3>
+                        <p>Passagem: R$15.000,00</p>
+                        <p>Alimentação: R$5.000,00</p>
+                        <p>Hotel: R$5.000,00</p>
+                        <p class="viajem_3">Total: </p>
+                        <div class="div_center"><button onclick="pagar_viagem_3()">Pagar</button></div>
+                    </div>
                 </div>
             </section>
             <section class="sec_dinheiro">
-                <input class="prin" type="number" name="dinheiro" id="idinheiro">
+                <i class="fa-solid fa-brazilian-real-sign"></i><input class="prin" type="number" name="dinheiro" id="idinheiro">
                 <input onclick="con()" type="button" value="Definir">
             </section>
             <section class="sec_pertences">
